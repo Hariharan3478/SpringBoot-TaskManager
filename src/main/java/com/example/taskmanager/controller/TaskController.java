@@ -13,6 +13,10 @@ import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+
 import java.util.List;
 
 @RestController
@@ -42,23 +46,43 @@ public class TaskController {
         return convertToResponse(savedTask);
     }
 
-    // GET ALL TASKS
+    //get all task
+
     @GetMapping
-    public List<TaskResponse> getAllTasks(
-            @RequestParam(required = false) TaskStatus status) {
+    public Page<TaskResponse> getAllTasks(
 
-        List<Task> tasks;
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "5") int size,
+            @RequestParam(required = false) TaskStatus status,
+            @RequestParam(required = false) String search) {
 
-        if (status != null) {
-            tasks = taskService.getTasksByStatus(status);
+        Pageable pageable = PageRequest.of(page, size);
+
+        Page<Task> tasks;
+
+        if (search != null && !search.isBlank()
+                && status != null) {
+
+            tasks = taskService.searchTasksByTitleAndStatus(
+                    search, status, pageable);
+
+        } else if (search != null && !search.isBlank()) {
+
+            tasks = taskService.searchTasks(search, pageable);
+
+        } else if (status != null) {
+
+            tasks = taskService.getTasksByStatus(status, pageable);
+
         } else {
-            tasks = taskService.getAllTasks();
+
+            tasks = taskService.getAllTasks(pageable);
         }
 
-        return tasks.stream()
-                .map(this::convertToResponse)
-                .toList();
+        return tasks.map(this::convertToResponse);
     }
+
+
 
     // GET TASK BY ID
     @GetMapping("/{id}")
