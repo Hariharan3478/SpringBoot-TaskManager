@@ -1,6 +1,9 @@
 
 package com.example.taskmanager.service;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.example.taskmanager.entity.Task;
 import com.example.taskmanager.entity.TaskStatus;
 import com.example.taskmanager.exception.TaskNotFoundException;
@@ -16,6 +19,8 @@ import java.util.List;
 public class TaskService {
 
     private final TaskRepository taskRepository;
+    private static final Logger logger =
+            LoggerFactory.getLogger(TaskService.class);
 
     public TaskService(TaskRepository taskRepository) {
         this.taskRepository = taskRepository;
@@ -23,6 +28,9 @@ public class TaskService {
 
     // CREATE TASK
     public Task createTask(Task task) {
+
+        logger.info("Creating task: {}", task.getTitle());
+
         return taskRepository.save(task);
     }
 
@@ -33,8 +41,12 @@ public class TaskService {
 
     // GET TASK BY ID
     public Task getTaskById(Long id) {
+
+        logger.info("Fetching task with ID: {}", id);
+
         return taskRepository.findById(id)
-                .orElseThrow(() -> new TaskNotFoundException(id));
+                .orElseThrow(() ->
+                        new TaskNotFoundException(id));
     }
 
     // UPDATE TASK
