@@ -1,0 +1,29 @@
+
+spring:
+  application:
+    name: taskmanager
+
+  profiles:
+    default: dev
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.example.taskmanager: DEBUG
+    org.springframework.web: INFO
+    org.hibernate.SQL: DEBUG
+  file:
+    name: logs/taskmanager.log
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: always
