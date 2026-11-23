@@ -8,6 +8,7 @@ import com.example.taskmanager.entity.Task;
 import com.example.taskmanager.entity.TaskStatus;
 import com.example.taskmanager.service.TaskService;
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 
 import org.springframework.http.HttpStatus;
@@ -16,11 +17,17 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/api/tasks")
+@Tag(
+        name = "Task Management",
+        description = "Task management operations"
+)
+@SecurityRequirement(name = "basicAuth")
 public class TaskController {
 
     private final TaskService taskService;

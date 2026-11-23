@@ -1,21 +1,16 @@
-2026-11-18T21:37:20.077+05:30  INFO 74581 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Starting TaskmanagerApplication using Java 21.0.12.1 with PID 74581 (/Users/hariharan/taskmanager-api/target/classes started by hariharan in /Users/hariharan/taskmanager-api)
-2026-11-18T21:37:20.082+05:30 DEBUG 74581 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
-2026-11-18T21:37:20.085+05:30  INFO 74581 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : The following 1 profile is active: "dev"
-2026-11-18T21:37:20.633+05:30  INFO 74581 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-11-18T21:37:20.668+05:30  INFO 74581 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
-2026-11-18T21:37:21.079+05:30  INFO 74581 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-11-18T21:37:21.088+05:30  INFO 74581 --- [taskmanager] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-11-18T21:37:21.088+05:30  INFO 74581 --- [taskmanager] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2026-11-18T21:37:21.114+05:30  INFO 74581 --- [taskmanager] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-11-18T21:37:21.115+05:30  INFO 74581 --- [taskmanager] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 992 ms
-2026-11-18T21:37:21.211+05:30  INFO 74581 --- [taskmanager] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-11-18T21:37:21.235+05:30  INFO 74581 --- [taskmanager] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2026-11-18T21:37:21.250+05:30  INFO 74581 --- [taskmanager] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-11-18T21:37:21.390+05:30  INFO 74581 --- [taskmanager] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-11-18T21:37:21.403+05:30  INFO 74581 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-11-18T21:37:21.483+05:30  INFO 74581 --- [taskmanager] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@60ed0b9d
-2026-11-18T21:37:21.484+05:30  INFO 74581 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-11-18T21:37:21.517+05:30  INFO 74581 --- [taskmanager] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-11-23T12:05:05.189+05:30  INFO 82518 --- [taskmanager] [main] c.e.t.repository.TaskRepositoryTest      : Starting TaskRepositoryTest using Java 21.0.12.1 with PID 82518 (started by hariharan in /Users/hariharan/taskmanager-api)
+2026-11-23T12:05:05.198+05:30 DEBUG 82518 --- [taskmanager] [main] c.e.t.repository.TaskRepositoryTest      : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-23T12:05:05.200+05:30  INFO 82518 --- [taskmanager] [main] c.e.t.repository.TaskRepositoryTest      : The following 1 profile is active: "test"
+2026-11-23T12:05:05.909+05:30  INFO 82518 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T12:05:05.974+05:30  INFO 82518 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2026-11-23T12:05:06.282+05:30  INFO 82518 --- [taskmanager] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-23T12:05:06.318+05:30  INFO 82518 --- [taskmanager] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-23T12:05:06.340+05:30  INFO 82518 --- [taskmanager] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-23T12:05:06.558+05:30  INFO 82518 --- [taskmanager] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T12:05:06.582+05:30  INFO 82518 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T12:05:06.717+05:30  INFO 82518 --- [taskmanager] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@629b780f
+2026-11-23T12:05:06.719+05:30  INFO 82518 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T12:05:06.784+05:30  INFO 82518 --- [taskmanager] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 18.7
@@ -23,37 +18,33 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-11-18T21:37:22.024+05:30  INFO 74581 --- [taskmanager] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-11-18T21:37:22.055+05:30  INFO 74581 --- [taskmanager] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-11-18T21:37:22.285+05:30  WARN 74581 --- [taskmanager] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-11-18T21:37:22.460+05:30  INFO 74581 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-11-18T21:37:22.467+05:30  INFO 74581 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Started TaskmanagerApplication in 2.933 seconds (process running for 3.319)
-2026-11-18T21:37:52.367+05:30  INFO 74581 --- [taskmanager] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-11-18T21:37:52.367+05:30  INFO 74581 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-11-18T21:37:52.369+05:30  INFO 74581 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-11-18T21:39:02.274+05:30  INFO 74581 --- [taskmanager] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-11-18T21:39:02.290+05:30  INFO 74581 --- [taskmanager] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-11-18T21:39:02.298+05:30  INFO 74581 --- [taskmanager] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-11-18T21:39:02.302+05:30  INFO 74581 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-11-18T21:39:02.306+05:30  INFO 74581 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-11-18T21:39:18.799+05:30  INFO 74809 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Starting TaskmanagerApplication using Java 21.0.12.1 with PID 74809 (/Users/hariharan/taskmanager-api/target/classes started by hariharan in /Users/hariharan/taskmanager-api)
-2026-11-18T21:39:18.803+05:30 DEBUG 74809 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
-2026-11-18T21:39:18.806+05:30  INFO 74809 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : No active profile set, falling back to 1 default profile: "dev"
-2026-11-18T21:39:19.519+05:30  INFO 74809 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-11-18T21:39:19.550+05:30  INFO 74809 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interface.
-2026-11-18T21:39:19.958+05:30  INFO 74809 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-11-18T21:39:19.965+05:30  INFO 74809 --- [taskmanager] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-11-18T21:39:19.966+05:30  INFO 74809 --- [taskmanager] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
-2026-11-18T21:39:19.995+05:30  INFO 74809 --- [taskmanager] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-11-18T21:39:19.995+05:30  INFO 74809 --- [taskmanager] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1149 ms
-2026-11-18T21:39:20.131+05:30  INFO 74809 --- [taskmanager] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-11-18T21:39:20.154+05:30  INFO 74809 --- [taskmanager] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
-2026-11-18T21:39:20.170+05:30  INFO 74809 --- [taskmanager] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-11-18T21:39:20.300+05:30  INFO 74809 --- [taskmanager] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-11-18T21:39:20.312+05:30  INFO 74809 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-11-18T21:39:20.392+05:30  INFO 74809 --- [taskmanager] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@26a33cf
-2026-11-18T21:39:20.393+05:30  INFO 74809 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-11-18T21:39:20.427+05:30  INFO 74809 --- [taskmanager] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-11-23T12:05:07.476+05:30  INFO 82518 --- [taskmanager] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T12:05:07.526+05:30  INFO 82518 --- [taskmanager] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T12:05:07.924+05:30  INFO 82518 --- [taskmanager] [main] c.e.t.repository.TaskRepositoryTest      : Started TaskRepositoryTest in 3.417 seconds (process running for 4.695)
+2026-11-23T12:05:08.477+05:30 DEBUG 82518 --- [taskmanager] [main] org.hibernate.SQL                        : insert into tasks (created_at,description,status,title) values (?,?,?,?)
+2026-11-23T12:05:08.518+05:30 DEBUG 82518 --- [taskmanager] [main] org.hibernate.SQL                        : insert into tasks (created_at,description,status,title) values (?,?,?,?)
+2026-11-23T12:05:08.574+05:30 DEBUG 82518 --- [taskmanager] [main] org.hibernate.SQL                        : select t1_0.id,t1_0.created_at,t1_0.description,t1_0.status,t1_0.title from tasks t1_0 where t1_0.status=?
+2026-11-23T12:05:08.604+05:30  INFO 82518 --- [taskmanager] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T12:05:08.606+05:30  INFO 82518 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T12:05:08.610+05:30  INFO 82518 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T12:12:36.098+05:30  INFO 83227 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Starting TaskmanagerApplication using Java 21.0.12.1 with PID 83227 (/Users/hariharan/taskmanager-api/target/classes started by hariharan in /Users/hariharan/taskmanager-api)
+2026-11-23T12:12:36.101+05:30 DEBUG 83227 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-23T12:12:36.105+05:30  INFO 83227 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : No active profile set, falling back to 1 default profile: "dev"
+2026-11-23T12:12:36.827+05:30  INFO 83227 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T12:12:36.862+05:30  INFO 83227 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.
+2026-11-23T12:12:37.327+05:30  INFO 83227 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-23T12:12:37.334+05:30  INFO 83227 --- [taskmanager] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T12:12:37.334+05:30  INFO 83227 --- [taskmanager] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-11-23T12:12:37.361+05:30  INFO 83227 --- [taskmanager] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-23T12:12:37.362+05:30  INFO 83227 --- [taskmanager] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1222 ms
+2026-11-23T12:12:37.505+05:30  INFO 83227 --- [taskmanager] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-23T12:12:37.529+05:30  INFO 83227 --- [taskmanager] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-23T12:12:37.546+05:30  INFO 83227 --- [taskmanager] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-23T12:12:37.661+05:30  INFO 83227 --- [taskmanager] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T12:12:37.673+05:30  INFO 83227 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T12:12:37.758+05:30  INFO 83227 --- [taskmanager] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@131777e8
+2026-11-23T12:12:37.759+05:30  INFO 83227 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T12:12:37.798+05:30  INFO 83227 --- [taskmanager] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 18.7
@@ -61,39 +52,274 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-11-18T21:39:20.931+05:30  INFO 74809 --- [taskmanager] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-11-18T21:39:20.961+05:30  INFO 74809 --- [taskmanager] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-11-18T21:39:21.193+05:30  WARN 74809 --- [taskmanager] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-11-18T21:39:21.443+05:30  INFO 74809 --- [taskmanager] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
-2026-11-18T21:39:21.489+05:30  INFO 74809 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-11-18T21:39:21.501+05:30  INFO 74809 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Started TaskmanagerApplication in 3.261 seconds (process running for 3.648)
-2026-11-18T21:39:32.497+05:30  INFO 74809 --- [taskmanager] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-11-18T21:39:32.498+05:30  INFO 74809 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-11-18T21:39:32.499+05:30  INFO 74809 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-11-18T21:57:43.943+05:30  INFO 74809 --- [taskmanager] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-11-18T21:57:43.956+05:30  INFO 74809 --- [taskmanager] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-11-18T21:57:43.964+05:30  INFO 74809 --- [taskmanager] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-11-18T21:57:43.970+05:30  INFO 74809 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-11-18T21:57:43.973+05:30  INFO 74809 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-11-18T22:01:52.645+05:30  INFO 76915 --- [taskmanager] [main] c.e.t.controller.TaskControllerTest      : Starting TaskControllerTest using Java 21.0.12.1 with PID 76915 (started by hariharan in /Users/hariharan/taskmanager-api)
-2026-11-18T22:01:52.646+05:30 DEBUG 76915 --- [taskmanager] [main] c.e.t.controller.TaskControllerTest      : Running with Spring Boot v3.5.7, Spring v6.2.12
-2026-11-18T22:01:52.647+05:30  INFO 76915 --- [taskmanager] [main] c.e.t.controller.TaskControllerTest      : No active profile set, falling back to 1 default profile: "dev"
-2026-11-18T22:01:54.978+05:30  INFO 76915 --- [taskmanager] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2026-11-18T22:01:54.978+05:30  INFO 76915 --- [taskmanager] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2026-11-18T22:01:54.984+05:30  INFO 76915 --- [taskmanager] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 6 ms
-2026-11-18T22:01:55.009+05:30  INFO 76915 --- [taskmanager] [main] c.e.t.controller.TaskControllerTest      : Started TaskControllerTest in 3.08 seconds (process running for 4.382)
-2026-11-18T22:01:55.156+05:30  WARN 76915 --- [taskmanager] [main] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+2026-11-23T12:12:38.294+05:30  INFO 83227 --- [taskmanager] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T12:12:38.326+05:30  INFO 83227 --- [taskmanager] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T12:12:38.682+05:30  WARN 83227 --- [taskmanager] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T12:12:38.702+05:30  INFO 83227 --- [taskmanager] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-11-23T12:12:38.860+05:30  INFO 83227 --- [taskmanager] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-11-23T12:12:39.043+05:30  INFO 83227 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T12:12:39.051+05:30  INFO 83227 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Started TaskmanagerApplication in 3.533 seconds (process running for 3.959)
+2026-11-23T12:14:43.387+05:30  INFO 83227 --- [taskmanager] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23T12:14:43.389+05:30  INFO 83227 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-23T12:14:43.394+05:30  INFO 83227 --- [taskmanager] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2026-11-23T12:14:43.626+05:30 DEBUG 83227 --- [taskmanager] [http-nio-8080-exec-2] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.status,
+        t1_0.title 
+    from
+        tasks t1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-23T12:14:43.680+05:30  WARN 83227 --- [taskmanager] [http-nio-8080-exec-2] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
-2026-11-18T22:05:21.653+05:30  INFO 77303 --- [taskmanager] [main] c.e.t.controller.TaskControllerTest      : Starting TaskControllerTest using Java 21.0.12.1 with PID 77303 (started by hariharan in /Users/hariharan/taskmanager-api)
-2026-11-18T22:05:21.654+05:30 DEBUG 77303 --- [taskmanager] [main] c.e.t.controller.TaskControllerTest      : Running with Spring Boot v3.5.7, Spring v6.2.12
-2026-11-18T22:05:21.654+05:30  INFO 77303 --- [taskmanager] [main] c.e.t.controller.TaskControllerTest      : No active profile set, falling back to 1 default profile: "dev"
-2026-11-18T22:05:24.031+05:30  INFO 77303 --- [taskmanager] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2026-11-18T22:05:24.031+05:30  INFO 77303 --- [taskmanager] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2026-11-18T22:05:24.034+05:30  INFO 77303 --- [taskmanager] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
-2026-11-18T22:05:24.063+05:30  INFO 77303 --- [taskmanager] [main] c.e.t.controller.TaskControllerTest      : Started TaskControllerTest in 3.109 seconds (process running for 4.434)
-2026-11-18T22:05:24.210+05:30  WARN 77303 --- [taskmanager] [main] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+2026-11-23T12:16:53.630+05:30  INFO 83227 --- [taskmanager] [http-nio-8080-exec-8] c.e.taskmanager.service.TaskService      : Fetching task with ID: 1
+2026-11-23T12:16:53.653+05:30 DEBUG 83227 --- [taskmanager] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.status,
+        t1_0.title 
+    from
+        tasks t1_0 
+    where
+        t1_0.id=?
+2026-11-23T12:17:09.508+05:30  INFO 83227 --- [taskmanager] [http-nio-8080-exec-10] c.e.taskmanager.service.TaskService      : Fetching task with ID: 1
+2026-11-23T12:17:09.513+05:30 DEBUG 83227 --- [taskmanager] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.status,
+        t1_0.title 
+    from
+        tasks t1_0 
+    where
+        t1_0.id=?
+2026-11-23T12:17:09.536+05:30 DEBUG 83227 --- [taskmanager] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    delete 
+    from
+        tasks 
+    where
+        id=?
+2026-11-23T12:20:47.110+05:30 DEBUG 83227 --- [taskmanager] [http-nio-8080-exec-8] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.status,
+        t1_0.title 
+    from
+        tasks t1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-23T14:33:34.474+05:30  INFO 83227 --- [taskmanager] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T14:33:34.487+05:30  INFO 83227 --- [taskmanager] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-11-23T14:33:34.499+05:30  INFO 83227 --- [taskmanager] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T14:33:34.503+05:30  INFO 83227 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T14:33:34.507+05:30  INFO 83227 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T14:33:51.938+05:30  INFO 95435 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Starting TaskmanagerApplication using Java 21.0.12.1 with PID 95435 (/Users/hariharan/taskmanager-api/target/classes started by hariharan in /Users/hariharan/taskmanager-api)
+2026-11-23T14:33:51.942+05:30 DEBUG 95435 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-23T14:33:51.945+05:30  INFO 95435 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : No active profile set, falling back to 1 default profile: "dev"
+2026-11-23T14:33:52.906+05:30  INFO 95435 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T14:33:52.956+05:30  INFO 95435 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 40 ms. Found 1 JPA repository interface.
+2026-11-23T14:33:53.286+05:30  INFO 95435 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-23T14:33:53.293+05:30  INFO 95435 --- [taskmanager] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T14:33:53.293+05:30  INFO 95435 --- [taskmanager] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-11-23T14:33:53.327+05:30  INFO 95435 --- [taskmanager] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-23T14:33:53.328+05:30  INFO 95435 --- [taskmanager] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1342 ms
+2026-11-23T14:33:53.472+05:30  INFO 95435 --- [taskmanager] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-23T14:33:53.498+05:30  INFO 95435 --- [taskmanager] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-23T14:33:53.517+05:30  INFO 95435 --- [taskmanager] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-23T14:33:53.652+05:30  INFO 95435 --- [taskmanager] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T14:33:53.664+05:30  INFO 95435 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T14:33:53.743+05:30  INFO 95435 --- [taskmanager] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61be6051
+2026-11-23T14:33:53.744+05:30  INFO 95435 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T14:33:53.795+05:30  INFO 95435 --- [taskmanager] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.7
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T14:33:54.388+05:30  INFO 95435 --- [taskmanager] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T14:33:54.421+05:30  INFO 95435 --- [taskmanager] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T14:33:54.836+05:30  WARN 95435 --- [taskmanager] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T14:33:54.856+05:30  INFO 95435 --- [taskmanager] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-11-23T14:33:55.040+05:30  INFO 95435 --- [taskmanager] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-11-23T14:33:55.298+05:30  INFO 95435 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T14:33:55.309+05:30  INFO 95435 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Started TaskmanagerApplication in 3.941 seconds (process running for 4.34)
+2026-11-23T14:33:55.373+05:30  WARN 95435 --- [taskmanager] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-23T14:33:55.374+05:30  WARN 95435 --- [taskmanager] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-23T14:37:47.833+05:30  INFO 95435 --- [taskmanager] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T14:37:47.842+05:30  INFO 95435 --- [taskmanager] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-11-23T14:37:47.849+05:30  INFO 95435 --- [taskmanager] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T14:37:47.851+05:30  INFO 95435 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T14:37:47.855+05:30  INFO 95435 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T14:37:51.190+05:30  INFO 95663 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Starting TaskmanagerApplication using Java 21.0.12.1 with PID 95663 (/Users/hariharan/taskmanager-api/target/classes started by hariharan in /Users/hariharan/taskmanager-api)
+2026-11-23T14:37:51.193+05:30 DEBUG 95663 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-23T14:37:51.196+05:30  INFO 95663 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : No active profile set, falling back to 1 default profile: "dev"
+2026-11-23T14:37:52.125+05:30  INFO 95663 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T14:37:52.170+05:30  INFO 95663 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2026-11-23T14:37:52.485+05:30  INFO 95663 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-23T14:37:52.492+05:30  INFO 95663 --- [taskmanager] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T14:37:52.492+05:30  INFO 95663 --- [taskmanager] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-11-23T14:37:52.526+05:30  INFO 95663 --- [taskmanager] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-23T14:37:52.527+05:30  INFO 95663 --- [taskmanager] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1289 ms
+2026-11-23T14:37:52.673+05:30  INFO 95663 --- [taskmanager] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-23T14:37:52.694+05:30  INFO 95663 --- [taskmanager] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-23T14:37:52.708+05:30  INFO 95663 --- [taskmanager] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-23T14:37:52.810+05:30  INFO 95663 --- [taskmanager] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T14:37:52.820+05:30  INFO 95663 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T14:37:52.900+05:30  INFO 95663 --- [taskmanager] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6a116354
+2026-11-23T14:37:52.901+05:30  INFO 95663 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T14:37:52.937+05:30  INFO 95663 --- [taskmanager] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.7
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T14:37:53.417+05:30  INFO 95663 --- [taskmanager] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T14:37:53.443+05:30  INFO 95663 --- [taskmanager] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T14:37:53.848+05:30  WARN 95663 --- [taskmanager] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T14:37:53.865+05:30  INFO 95663 --- [taskmanager] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-11-23T14:37:54.030+05:30  INFO 95663 --- [taskmanager] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-11-23T14:37:54.257+05:30  INFO 95663 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T14:37:54.269+05:30  INFO 95663 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Started TaskmanagerApplication in 3.639 seconds (process running for 4.016)
+2026-11-23T14:37:54.328+05:30  WARN 95663 --- [taskmanager] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-23T14:37:54.328+05:30  WARN 95663 --- [taskmanager] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-23T14:38:01.432+05:30  INFO 95663 --- [taskmanager] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23T14:38:01.432+05:30  INFO 95663 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-23T14:38:01.435+05:30  INFO 95663 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-11-23T14:38:01.939+05:30  INFO 95663 --- [taskmanager] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 236 ms
+2026-11-23T14:44:47.800+05:30 DEBUG 95663 --- [taskmanager] [http-nio-8080-exec-9] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.status,
+        t1_0.title 
+    from
+        tasks t1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-23T14:44:47.831+05:30  WARN 95663 --- [taskmanager] [http-nio-8080-exec-9] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
 	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
 	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
 
+2026-11-23T14:45:52.717+05:30  INFO 95663 --- [taskmanager] [http-nio-8080-exec-5] c.e.taskmanager.service.TaskService      : Fetching task with ID: 2
+2026-11-23T14:45:52.727+05:30 DEBUG 95663 --- [taskmanager] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.status,
+        t1_0.title 
+    from
+        tasks t1_0 
+    where
+        t1_0.id=?
+2026-11-23T14:46:03.201+05:30  INFO 95663 --- [taskmanager] [http-nio-8080-exec-3] c.e.taskmanager.service.TaskService      : Fetching task with ID: 1
+2026-11-23T14:46:03.203+05:30 DEBUG 95663 --- [taskmanager] [http-nio-8080-exec-3] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.status,
+        t1_0.title 
+    from
+        tasks t1_0 
+    where
+        t1_0.id=?
+2026-11-23T14:50:25.699+05:30  INFO 95663 --- [taskmanager] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-11-23T14:50:25.712+05:30  INFO 95663 --- [taskmanager] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-11-23T14:50:25.726+05:30  INFO 95663 --- [taskmanager] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T14:50:25.731+05:30  INFO 95663 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-11-23T14:50:25.737+05:30  INFO 95663 --- [taskmanager] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-11-23T14:53:00.141+05:30  INFO 96239 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Starting TaskmanagerApplication using Java 21.0.12.1 with PID 96239 (/Users/hariharan/taskmanager-api/target/classes started by hariharan in /Users/hariharan/taskmanager-api)
+2026-11-23T14:53:00.144+05:30 DEBUG 96239 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Running with Spring Boot v3.5.7, Spring v6.2.12
+2026-11-23T14:53:00.148+05:30  INFO 96239 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : No active profile set, falling back to 1 default profile: "dev"
+2026-11-23T14:53:01.116+05:30  INFO 96239 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-11-23T14:53:01.163+05:30  INFO 96239 --- [taskmanager] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2026-11-23T14:53:01.489+05:30  INFO 96239 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-11-23T14:53:01.496+05:30  INFO 96239 --- [taskmanager] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-11-23T14:53:01.496+05:30  INFO 96239 --- [taskmanager] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-11-23T14:53:01.531+05:30  INFO 96239 --- [taskmanager] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-11-23T14:53:01.532+05:30  INFO 96239 --- [taskmanager] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2026-11-23T14:53:01.685+05:30  INFO 96239 --- [taskmanager] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-11-23T14:53:01.717+05:30  INFO 96239 --- [taskmanager] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-11-23T14:53:01.734+05:30  INFO 96239 --- [taskmanager] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-11-23T14:53:01.854+05:30  INFO 96239 --- [taskmanager] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-11-23T14:53:01.866+05:30  INFO 96239 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-11-23T14:53:01.953+05:30  INFO 96239 --- [taskmanager] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b576ee3
+2026-11-23T14:53:01.955+05:30  INFO 96239 --- [taskmanager] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-11-23T14:53:01.990+05:30  INFO 96239 --- [taskmanager] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 18.7
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-11-23T14:53:02.487+05:30  INFO 96239 --- [taskmanager] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-11-23T14:53:02.516+05:30  INFO 96239 --- [taskmanager] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-11-23T14:53:02.929+05:30  WARN 96239 --- [taskmanager] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-11-23T14:53:02.946+05:30  INFO 96239 --- [taskmanager] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-11-23T14:53:03.125+05:30  INFO 96239 --- [taskmanager] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoints beneath base path '/actuator'
+2026-11-23T14:53:03.351+05:30  INFO 96239 --- [taskmanager] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-11-23T14:53:03.367+05:30  INFO 96239 --- [taskmanager] [main] c.e.taskmanager.TaskmanagerApplication   : Started TaskmanagerApplication in 3.802 seconds (process running for 4.19)
+2026-11-23T14:53:03.425+05:30  WARN 96239 --- [taskmanager] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-11-23T14:53:03.426+05:30  WARN 96239 --- [taskmanager] [main] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-11-23T14:53:54.470+05:30  INFO 96239 --- [taskmanager] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-11-23T14:53:54.471+05:30  INFO 96239 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-11-23T14:53:54.473+05:30  INFO 96239 --- [taskmanager] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-11-23T14:53:54.961+05:30  INFO 96239 --- [taskmanager] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 226 ms
+2026-11-23T14:54:32.746+05:30 DEBUG 96239 --- [taskmanager] [http-nio-8080-exec-10] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.status,
+        t1_0.title 
+    from
+        tasks t1_0 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+2026-11-23T14:54:32.946+05:30  WARN 96239 --- [taskmanager] [http-nio-8080-exec-10] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2026-11-23T14:55:31.812+05:30  INFO 96239 --- [taskmanager] [http-nio-8080-exec-5] c.e.taskmanager.service.TaskService      : Fetching task with ID: 2
+2026-11-23T14:55:31.842+05:30 DEBUG 96239 --- [taskmanager] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    select
+        t1_0.id,
+        t1_0.created_at,
+        t1_0.description,
+        t1_0.status,
+        t1_0.title 
+    from
+        tasks t1_0 
+    where
+        t1_0.id=?
+2026-11-23T14:55:31.869+05:30 DEBUG 96239 --- [taskmanager] [http-nio-8080-exec-5] org.hibernate.SQL                        : 
+    delete 
+    from
+        tasks 
+    where
+        id=?
